@@ -18,6 +18,12 @@
     "no-debugger": "error",
     "no-dupe-args": "error",
     "no-func-assign": "error",
-    "no-new-symbol": "error"
+    "no-new-symbol": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
   }
 }
