@@ -1,5 +1,14 @@
+import React from "react";
+import { Helmet } from "react-helmet";
+
 const NotFoundPage = () => {
-  return <div>404</div>;
+  return (
+    <>
+      <Helmet>
+        <title>.ME : 404 </title>
+      </Helmet>
+    </>
+  );
 };
 
 export default NotFoundPage;

@@ -13,23 +13,28 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@mdx-js/react": "^2.2.1",
     "gatsby": "^5.3.3",
     "gatsby-plugin-mdx": "^5.3.1",
+    "gatsby-plugin-react-helmet": "^6.3.0",
     "gatsby-source-filesystem": "^5.3.1",
     "prettier": "^2.8.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-react": "^7.18.6",
-    "eslint": "^8.31.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1"
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "husky": "^8.0.0"
   }
 }
