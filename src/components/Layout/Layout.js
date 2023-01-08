@@ -1,11 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import Header from "../Header/Header";
+
 import "../../../static/css/reset.css";
 import "../../../static/css/global.css";
 
 const Layout = ({ children }) => {
-  return <div>{children}</div>;
+  return (
+    <div>
+      <Header />
+      {children}
+    </div>
+  );
 };
 
 export default Layout;
