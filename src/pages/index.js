@@ -5,7 +5,8 @@ const IndexPage = () => {
   return (
     <>
       <Helmet>
-        <title>.ME ::Home</title>
+        <title>Home</title>
+        <link rel="icon" type="image/x-icon" href="./images/logo.png" />
       </Helmet>
     </>
   );

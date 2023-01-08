@@ -5,7 +5,8 @@ const NotFoundPage = () => {
   return (
     <>
       <Helmet>
-        <title>.ME : 404 </title>
+        <title>404</title>
+        <link rel="icon" type="image/x-icon" href="./images/logo.png" />
       </Helmet>
     </>
   );
