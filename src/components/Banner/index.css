@@ -1,0 +1,45 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 65vh;
+  padding: 0 20px;
+}
+
+.banner h1 {
+  font-size: 5rem;
+  color: var(--secondary-color);
+  position: relative;
+  text-transform: uppercase;
+}
+
+.banner h3 {
+  text-align: end;
+  margin: 10px 0;
+}
+
+.banner h3 a {
+  color: var(--text-color);
+}
+
+@media (max-width: 556px) {
+  .banner h1 {
+    font-size: 4rem;
+  }
+
+  .banner h3 {
+    text-align: end;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 366px) {
+  .banner h1 {
+    font-size: 3rem;
+  }
+
+  .banner h3 {
+    font-size: 0.8rem;
+  }
+}
