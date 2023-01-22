@@ -1,5 +1,6 @@
 .header {
-  padding: 15px 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,4 +42,18 @@
 .nav ul li a:hover {
   color: var(--secondary-color);
   text-shadow: 0 0 50px var(--secondary-color);
+}
+
+@media (max-width: 556px) {
+  .header .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .nav ul li a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 366px) {
 }

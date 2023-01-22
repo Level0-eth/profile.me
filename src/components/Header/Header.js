@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import "./index.css";
 
@@ -7,15 +8,15 @@ const Header = () => {
     <div className="container__fluid">
       <div className="container header">
         <div className="logo">
-          <img src="./images/logo.png" />
+          <img src="/images/logo.png" />
         </div>
         <nav className="nav">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/profiles">Profiles</a>
+              <Link to="/profiles">Profiles</Link>
             </li>
           </ul>
         </nav>
